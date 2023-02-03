@@ -1,0 +1,213 @@
+.register {
+  position: relative;
+}
+.close {
+  cursor: pointer !important;
+  position: absolute;
+  top: 8%;
+  right: 6.5%;
+}
+.mcon {
+  width: 736px !important;
+  height: 513px;
+  background: white;
+}
+.mnav {
+  background: #effff4;
+  border-radius: 8px 8px 0px 0px;
+  height: 50px;
+}
+.pmnav {
+  margin: 0;
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  color: #008a45;
+}
+.mconbody {
+  padding: 20px 30px 20px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.mconleft {
+  width: 320px;
+  height: 403px;
+}
+.acchead {
+  margin: 0 0 20px 0;
+  width: 173px;
+  height: 31px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+}
+.inputs {
+  width: 320px;
+  height: 181px;
+}
+.nameinput {
+  display: flex;
+  width: 100%;
+}
+.nameinput > input {
+  width: calc(100% / 2);
+  height: 46px;
+  background: #f7f8fa;
+  border: 1px solid #d9d9db;
+  border-bottom: none;
+  border-radius: 2px 2px 0px 0px;
+  font-size: 15px;
+  line-height: 16px;
+  padding-left: 10px;
+  color: #8a8a8a;
+  outline: none;
+}
+.inp {
+  width: 100%;
+  height: 46px;
+  background: #f7f8fa;
+  border: 1px solid #d9d9db;
+  border-radius: 2px 2px 0px 0px;
+  font-size: 15px;
+  line-height: 16px;
+  padding-left: 10px;
+  color: #8a8a8a;
+  outline: none;
+}
+.inp:nth-child(2),
+.inp:nth-child(3) {
+  border-bottom: none;
+}
+.accbtn {
+  width: 320px;
+  margin: 20px 0;
+  height: 40px;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  background: #2f6ce5;
+  border-radius: 20px;
+}
+.sbtn {
+  box-sizing: border-box;
+  width: 320px;
+  height: 38px;
+  background: #ffffff;
+  border: 0.6px solid #d9d9db;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mconright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.accsign {
+  margin: 10px 0;
+  width: 100%;
+  height: 17px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: right;
+  color: #3d3d3d;
+}
+.signupimg {
+  margin: 20px 20px 20px 0;
+  padding: 20px;
+}
+.mconacc {
+  color: #2f6ce5;
+  text-decoration: none;
+}
+.inst {
+  height: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: -0.008em;
+  color: #000000;
+  opacity: 0.6;
+  margin: 10px 0;
+}
+/* login */
+.mconl {
+  height: 480px;
+}
+.mconleftl {
+  height: 313px;
+  width: 320px;
+}
+.inputsl {
+  width: 320px;
+  height: 91px;
+}
+.inpl {
+  width: 100%;
+  height: 46px;
+  background: #f7f8fa;
+  border: 1px solid #d9d9db;
+  border-radius: 2px 2px 0px 0px;
+  font-size: 15px;
+  line-height: 16px;
+  padding-left: 10px;
+  color: #8a8a8a;
+  outline: none;
+}
+.fpas {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: -0.008em;
+  color: #000000;
+}
+.closel{
+  cursor: pointer !important;
+  position: absolute;
+  top: 10.5%;
+  right: -1.5%;
+}
+@media(max-width:1050px){
+  .signupimg{
+    display: none;
+  }
+  .mconbody{
+    display: flex;
+    flex-direction: column;
+  }
+  .accsign{
+    text-align: center;
+  }
+  .pmnav{
+    display: none;
+  }
+  .fpas{
+    margin: 10px;
+  }
+  .accsign1{
+    margin: 25px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+  .mnav{
+    background: white;
+  }
+}

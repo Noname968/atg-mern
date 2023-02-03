@@ -1,0 +1,146 @@
+.navbar {
+  min-height: 72px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+  padding: 0 72px;
+}
+.logo {
+  height: 24px;
+}
+.navsearch {
+  display: flex;
+  align-items: center;
+  background: #f2f2f2;
+  border-radius: 21px;
+  width: 360px;
+  height: 42px;
+  margin: auto;
+}
+.ssvg {
+  margin: 0 14px;
+}
+.navs {
+  border: none;
+  outline: none;
+  background: #f2f2f2;
+  width: 100%;
+  color: #5c5c5c;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+.account {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #2e2e2e;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+}
+.aaccount {
+  color: #2f6ce5;
+  text-decoration: none;
+  margin-right: 4px;
+}
+.homecomponent {
+  position: relative;
+  height: 440px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.45) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("../assets/homeback.png");
+}
+.htext {
+  position: absolute;
+  color: #ffffff;
+  left: 200px;
+  top: 278px;
+}
+.htitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  margin: 0;
+}
+.hsubt {
+  margin: 8px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+.join{
+  box-sizing: border-box;
+position: absolute;
+width: 76px;
+height: 28px;
+right: 20px;
+top: 20px;
+display: none;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+color: #FFFFFF;
+border: 0.8px solid #FFFFFF;
+border-radius: 4px;
+background-color: transparent;
+}
+.arr{
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .homecomponent {
+    min-width: 360px;
+    background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.45) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),url('../assets/homemobile.png');
+    background-position: center center;
+    height: 259px;
+    background-size: contain;
+  }
+  .htext {
+    position: absolute;
+    color: #ffffff;
+    left: 120px;
+    top: 170px;
+  }
+  .htitle {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    margin: 0;
+  }
+  .hsubt {
+    margin: 8px 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .join,.arr{
+    display: block;
+  }
+}
+@media (max-width: 475px) {
+  .navbar {
+    min-height: 50px;
+    padding: 20px 0;
+  }
+  .navsearch {
+    width: 320px;
+    margin: 10px 0;
+  }
+  .htext {
+    position: absolute;
+    color: #ffffff;
+    left: 20px;
+    top: 180px;
+  }
+
+}
